@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_note.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\layout\\new_note.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_bean.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\layout\\note_bean.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_note.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\layout\\welcome_note.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_note.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\layout\\edit_note.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_note.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\layout\\main_note.xml"
+    }
+]

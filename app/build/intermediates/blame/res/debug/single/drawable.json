@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_new.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable\\shape_new.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_note_bean.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable\\shape_note_bean.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_edit_search.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable\\shape_edit_search.xml"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_search.xml",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable\\shape_btn_search.xml"
+    }
+]

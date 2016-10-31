@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\voice.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\voice.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\more.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\more.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\finish.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\finish.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search_edit.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\search_edit.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\back.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "E:\\workspace\\Dmx_Note\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search.png",
+        "source": "E:\\workspace\\Dmx_Note\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+    }
+]

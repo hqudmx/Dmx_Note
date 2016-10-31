@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/re"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0076c5"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/id_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+			<TextView 
+			    android:gravity="center"
+			    android:layout_centerHorizontal="true"
+			    android:layout_marginTop="15dp"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/date_tv"
+			    android:textColor="#ffffff"
+			    android:text="2016年8月30日  15：22"
+			    android:textSize="14sp"/>
+        <ImageButton
+            android:id="@+id/id_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/finish" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/re"
+        android:background="@drawable/shape_edit_search"
+        android:maxWidth="400dp" 
+        android:lines="1"
+        android:hint="请输入标题"/>
+    <EditText
+        android:gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/content_edit"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_below="@id/title_edit"
+        android:background="@drawable/shape_edit_search"
+        android:hint="请输入您想要记录的内容……"/>
+
+</RelativeLayout>

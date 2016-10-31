@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.dmx.note.activity.MainNote" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/search_edit_note"
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_edit_search"
+            android:drawableLeft="@drawable/search"
+            android:gravity="center"
+            android:hint="请输入关键字"
+            android:maxLines="1"
+            android:maxWidth="500dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:divider="#00000000"
+        android:dividerHeight="5dp" />
+
+    <ImageButton
+        android:id="@+id/ima_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_new"
+        android:src="@drawable/more" />
+
+    <RelativeLayout
+        android:id="@+id/re_longClick"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_btn_search"
+            android:onClick="Click"
+            android:text="撤销"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_btn_search"
+            android:gravity="center"
+            android:text="总计"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_btn_search"
+            android:text="删除"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
